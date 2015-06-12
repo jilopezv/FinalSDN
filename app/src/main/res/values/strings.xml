@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OpendayLight - Rest API Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ruleName_hint">Nombrar regla</string>
+    <string name="ip1_hint">Agregar dirección ip 1</string>
+    <string name="ip2_hint">Agregar dirección ip 2</string>
+    <string name="ipServer_hint">Dirección ip del servidor</string>
+    <string name="ipServer_default">172.21.30.210</string>
+
+<string name="btn_denegar_txt">Denegar</string>
+
+</resources>

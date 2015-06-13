@@ -62,7 +62,7 @@ public class MainActivity extends ActionBarActivity implements Communicator{
         try{
             sender.processClick();
         }catch(JSONException je){
-
+            System.err.println(je.getMessage());
         }
     }
 

@@ -22,12 +22,11 @@ public class OpenDayLightHelper {
             if (!baseURL.contains("http")) {
                 baseURL = "http://" + baseURL;
             }
+            //URL where the RESTful Web Service is located
             baseURL = baseURL
                     + "/controller/nb/v2/flowprogrammer/default/node/OF13/"
                     + postData.getJSONObject("node").get("id") + "/staticFlow/"
-                    + postData.get("name");          // Create URL = base URL + container
-
-            System.out.println(baseURL);
+                    + postData.get("name");
 
             URL url = new URL(baseURL);
 
